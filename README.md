@@ -70,16 +70,16 @@ cd calendar-diary
 flutter pub get
 
 ### 4. 서버 설정
-1. Python 및 Django 설치
+1. Python 및 Django 설치<br>
 pip install django djangorestframework django-cors-headers
 
-2. 데이터베이스 마이그레이션
+2. 데이터베이스 마이그레이션<br>
 python manage.py migrate
 
-3. 서버 실행
+3. 서버 실행<br>
 python manage.py runserver
 
-4. 앱 실행
+4. 앱 실행<br>
 flutter run
 
 > **참고**: 앱을 실행하기 전에 반드시 Django 서버가 실행 중이어야 합니다.
